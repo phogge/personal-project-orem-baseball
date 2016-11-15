@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="oremBaseballApp">
+<head>
+	<title>Orem Tiger Baseball</title>
+
+  <link rel="icon" type="image/x-icon" title="UHS logo" href="img/conf/orem/orem_tiger_face.png"/>
+  <link rel="shortcut icon" title="UHS logo" href="img/conf/orem/orem_tiger_face.png"/>
+
+	<!-- META INFO -->
+	<meta charset="UTF-8">
+	<meta name="description" content="Personal Project">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--RESET FILE -->
+	<link rel="stylesheet" href="./styles/base/reset.css">
+
+	<!--FONT FILE -->
+	<!-- <link rel="stylesheet" href="styles/fonts/fonts.css"> -->
+
+	<!-- View Styles -->
+	<link rel="stylesheet" href="./styles/views/photos.css">
+	<link rel="stylesheet" href="./styles/views/main.css">
+	<link rel="stylesheet" href="./styles/views/roster.css">
+	<link rel="stylesheet" href="./styles/views/stats.css">
+
+	<link rel="stylesheet" href="../styles/base/master_tables.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="../styles/base/pagetype_clubhouse.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="../styles/base/player_card.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="../styles/base/tabs_page.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="../styles/base/trans_header_clubhouse.css" type="text/css" media="screen" charset="utf-8" />
+
+</head>
+
+<body>
+<main role="main">
+
+
+	<div class="container">
+		<div class="wrapper">
+			<section class="home-page-top-container">
+	        <header>
+	            <nav>
+	                <ul>
+	                    <!--Navigation section, this is where you will put your ui-sref's so you can naviagte to different views -->
+											<li><a ui-sref="home">Home</a></li>
+											<li><a ui-sref="roster">Roster</a></li>
+											<li><a ui-sref="photos">Photos</a></li>
+											<li><a ui-sref="history">History</a></li>
+											<li><a>Schedule</a></li>
+	                    <li><a>Stats</a></li>
+											<li><a>Rankings</a></li>
+											<li><a>conference</a></li>
+	                    <!-- <li><a><img src="./img/conf/orem/orem_tiger_face.png" alt="Orem Tiger Logo"></a></li> -->
+
+
+
+	                </ul>
+	            </nav>
+	        </header>
+	    </section>
+			<div class="view">
+				<ui-view></ui-view>
+			</div>
+
+			<div class="push"></div>
+		</div> <!-- wrapper -->
+	</div> <!-- container -->
+
+	<footer>
+			<p>Orem Baseball.com&#8482; &copy; 2016</p>
+	</footer>
+
+	<!-- Including angular and ui-router then our javascript files. ORDER MATTERS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+	<!--Our Custom Script JS Files-->
+	<script src="./js/oremBaseballApp.js" media="screen" title="no title"></script>
+	<script src="./js/controllers/mainCtrl.js" media="screen" title="no title"></script>
+	<script src="./js/controllers/rosterCtrl.js" media="screen" title="no title"></script>
+	<script src="./js/service/rosterService.js" media="screen" title="no title"></script>
+
+</body>
+</html>

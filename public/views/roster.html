@@ -1,0 +1,199 @@
+
+    <div class="mlb {sportId:10, teamId:23} clubhouse pit"  data-sport="mlb">
+
+      <div class="bg-elements">
+
+      <!-- gpt ad type: background_skin -->
+      <div class="ad-slot ad-slot-background_skin" data-slot-type="background_skin" data-slot-kvps="pos=background_skin" data-exclude-bp="s,m" data-collapse-before-load="true"></div><!-- begin subheader -->
+      <div id="subheader">
+
+      </div>
+
+      <div id="content" class="container">
+      <div id="fb-root"></div><!--[if lte IE 7]><link rel="stylesheet" charset="utf-8" media="screen" href="http://a.espncdn.com/combiner/c?css=modules/browser-alert.r7.css" type="text/css" /><div class="span-6" id="browser-alert-wrapper" style="display:none;"><div class="mod-container mod-no-header-footer browser-alert"><div class="mod-content"><div class="gradient-container"><h1><span>Your Web Browser</span> is no longer supported</h1><p>To experience everything that ESPN.com has to offer, we recommend that you upgrade to a newer version of your web browser. Click the upgrade button to the right or <a href="http://www.espn.com/espn/news/story/_/id/5630562">learn more</a>.</p><ul><li><a class="btn-upgrade" href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Upgrade</a></li><li><a class="btn-faq" href="http://www.espn.com/espn/news/story/_/id/5630562">FAQs</a></li></ul></div></div></div></div><script>(function(b){setTimeout(function(){var a=b("#browser-alert-wrapper");if(espn.cookie.get("browseralert")!="true"){b('<a class="btn-close" href="#">Close</a>').bind("click",function(){a.hide();espn.cookie.set("browseralert","true",30);return false}).appendTo(a.find(".gradient-container"));a.show();espn.cookie.set("browseralert","true")}},100)})(jQuery);</script><![endif]--><div id="sub-branding"><h2 class="logo"><a class="sub-brand-title"><b>Orem Tigers</b></a></h2><div class="presby">
+      <!-- gpt ad type: enhancedlogo -->
+      <div class="ad-slot ad-slot-enhancedlogo" data-slot-type="enhancedlogo" data-slot-kvps="pos=enhancedlogo"></div></div><div class="sub-title">4A Region 7</div></div>
+
+
+      <style>body.mlb .stathead td,body.mlb .stathead,.mod-content tr.stathead,.mod-content tr.stathead td,.mod-header,body.clubhouse .mod-calendar-month td.day.home div.day-top,body.clubhouse .mod-calendar-month tr.util td ul.key li span.home, body.mlb .mod-data-table .mod-header{background: #111111 !important;}</style>
+
+
+
+      <div class="bg-opaque" id="my-players-table">
+      	<div class="span-6">
+      		<div class="bg-full"></div>
+      		<div class="span-6">
+      			<div class="mod-section-header">
+      				<h1 class="h2">Orem Tigers Roster</h1>
+      				<form class="js-goto"><select class="select-box"><option value="">More Region 7 Teams</option>
+                <option>Alta Hawks</option>
+                <option>Corner Canyon Chargers</option>
+                <option>Mountain View Bruins</option>
+                <option>Orem Tigers</option>
+                <option>Provo Bulldogs</option>
+                <option>Skyridge Falcons</option>
+                <option>Timpanogos Timberwolves</option>
+                <option>Timpview Thunderbirds</option></select></form>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="span-6">
+            <div class="mod-page-tabs mod-thirdnav-tabs">
+              <ul class="ui-tabs">
+                <li ng-class="{'active': showVarsity}"><a ng-click="showVarsity=true; showJv=false; showFrosh=false;">Varsity Roster</a></li>
+                <li ng-class="{'active': showJv}"><a ng-click="showVarsity=false; showJv=true; showFrosh=false;">JV Roster</a></li>
+                <li ng-class="{'active': showFrosh}"><a ng-click="showVarsity=false; showJv=false; showFrosh=true;">Frosh Roster</a></li>
+              </ul>
+            </div>
+      	</div>
+      	<div class="span-6" style="margin-top: 20px;">
+      		<div class="col-main">
+      			<div class="mod-container mod-table mod-no-header-footer">
+      				<div class="mod-content">
+
+      					<table cellspacing="1" cellpadding="3" class="tablehead" ng-show="showVarsity">
+
+										<!-- Varsity Team -->
+									<tr class="stathead">
+                    <td colspan="10">Varsity</td>
+                  </tr>
+
+                  <tr class="colhead">
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/jersey">NO.</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/lastName">NAME</a></td>
+                    <td align="left">POS#1</td>
+                    <td align="left">POS#2</td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/bats">BAT</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/throws">THW</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/age">AGE</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/height">HT</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/weight">WT</a></td>
+                    <td align="left">GRADE</td>
+                  </tr>
+
+                  <tr class="oddrow player-10-30" ng-repeat="player in roster | filter: {team: 'Varsity'}">
+                    <td>{{player.player_number}}</td>
+                    <td><a ui-sref="stats({id: player.id})">{{player.name}}</a></td>
+                    <td class="sortcell">{{player.pos1}}</td>
+                    <td>{{player.pos2}}</td>
+                    <td class="sortcell">{{player.bats}}</td>
+                    <td>{{player.throws}}</td>
+                    <td class="sortcell">{{player.age}}</td>
+                    <td>{{player.height}}</td>
+                    <td class="sortcell">{{player.weight}}</td>
+                    <td>{{player.grade}}</td>
+                  </tr>
+              </table>
+
+      					<table cellspacing="1" cellpadding="3" class="tablehead" ng-show="showJv">
+										<!-- JV Team -->
+									<tr class="stathead">
+                    <td colspan="10">JV</td>
+                  </tr>
+
+                  <tr class="colhead">
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/jersey">NO.</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/lastName">NAME</a></td>
+                    <td align="left">POS#1</td>
+                    <td align="left">POS#2</td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/bats">BAT</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/throws">THW</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/age">AGE</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/height">HT</a></td>
+                    <td align="left"><a href="//www.espn.com/mlb/team/roster/_/name/pit/sort/weight">WT</a></td>
+                    <td align="left">GRADE</td>
+                  </tr>
+
+                  <tr class="oddrow player-10-30" ng-repeat="player in roster | filter: {team: 'JV'}">
+                    <td>{{player.player_number}}</td>
+                    <td><a ui-sref="stats({id: player.id})">{{player.name}}</a></td>
+                    <td class="sortcell">{{player.pos1}}</td>
+                    <td>{{player.pos2}}</td>
+                    <td class="sortcell">{{player.bats}}</td>
+                    <td>{{player.throws}}</td>
+                    <td class="sortcell">{{player.age}}</td>
+                    <td>{{player.height}}</td>
+                    <td class="sortcell">{{player.weight}}</td>
+                    <td>{{player.grade}}</td>
+                  </tr>
+                </table>
+      					<table cellspacing="1" cellpadding="3" class="tablehead" ng-show="showFrosh">
+                  	<!-- Frosh Team -->
+									<tr class="stathead">
+                    <td colspan="10">Frosh</td>
+                  </tr>
+
+                  <tr class="colhead">
+                    <td align="left">NO.</td>
+                    <td align="left">NAME</td>
+                    <td align="left">POS#1</td>
+                    <td align="left">POS#2</td>
+                    <td align="left">BAT</td>
+                    <td align="left">THW</td>
+                    <td align="left">AGE</td>
+                    <td align="left">HT</td>
+                    <td align="left">WT</td>
+                    <td align="left">GRADE</td>
+                  </tr>
+
+                  <tr class="oddrow player-10-30" ng-repeat="player in roster | filter: {team: 'Frosh'}">
+                    <td>{{player.player_number}}</td>
+                    <td><a ui-sref="stats({id: player.id})">{{player.name}}</a></td>
+                    <td class="sortcell">{{player.pos1}}</td>
+                    <td>{{player.pos2}}</td>
+                    <td class="sortcell">{{player.bats}}</td>
+                    <td>{{player.throws}}</td>
+                    <td class="sortcell">{{player.age}}</td>
+                    <td>{{player.height}}</td>
+                    <td class="sortcell">{{player.weight}}</td>
+                    <td>{{player.grade}}</td>
+
+                  </tr>
+
+
+                    <table cellspacing="1" cellpadding="3" class="tablehead">
+                      <tr class="colhead">
+                        <td>Roster Analysis</td>
+                        <td>RHB</td>
+                        <td>LHB</td>
+                        <td>SHB</td>
+                        <td>RHP</td>
+                        <td>LHP</td>
+                        <td>AVG HT</td>
+                        <td>AVG WT</td>
+                        <td>AVG AGE</td>
+                        <td>Young</td>
+                        <td>Old</td></tr>
+                        <tr class="oddrow">
+                          <td>Tigers</td>
+                          <td>28</td>
+                          <td>5</td>
+                          <td>2</td>
+                          <td>11</td>
+                          <td>3</td>
+                          <td>5-10</td>
+                          <td>170</td>
+                          <td>15.5</td>
+                          <td>14</td>
+                          <td>17</td></tr></table>
+      				</div>
+
+									<!-- spacer -->
+							<!-- <tr class="evenrow"><td colspan="10">&nbsp;</td></tr></tr> -->
+
+      	<div class="span-6">
+
+
+      	<!-- <div class="mod-container mod-team-footer">
+          <div class="logo-medium logo-mlb-medium">
+            <img src=" http://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/pit.png&w=100&h=100&transparent=true " class="teamlogo"></div>
+            <h3 class="txt-mlb-pit">Orem Tigers</h3>
+            <ul><li ><a href="/mlb/team/stats/batting/_/name/pit/pittsburgh-pirates">Stats</a></li>
+              <li ><a href="/mlb/team/schedule/_/name/pit/pittsburgh-pirates">Schedule</a></li>
+              <li class="active"><a href="/mlb/team/roster/_/name/pit/pittsburgh-pirates">Roster</a></li>
+              <li ><a href="/mlb/team/rankings/_/name/pit/pittsburgh-pirates">Rankings</a></li>
+              <li ><a href="/mlb/team/photos/_/name/pit/pittsburgh-pirates">Photos</a></li>
+              <li ><a href="/mlb/history/teams/_/team/pit">History</a></li></ul></div> -->
+
+  </div>
+</html>

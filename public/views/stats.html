@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<title>Orem Tigers - Player Stats</title>
+
+
+<!-- begin content -->
+<div id="content-wrapper">
+
+
+  <!-- espn -->
+<!-- <div class="mod-content">
+  <div class="team-logo"></div>
+    <div class="main-headshot"><img src="http://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30105.png&amp;w=350&amp;h=254" alt=""></div>
+    <h1>Antonio Bastardo</h1>
+      <div class="player-bio">
+        <div class="line-divider"></div>
+          <ul class="general-info">
+            <li class="first">#59 RP</li><li>Throws: L, Bats: L</li>
+              <li class="last"><a href="http://www.espn.com/mlb/team/_/name/pit/pittsburgh-pirates">Pittsburgh Pirates</a></li></ul>
+                <ul class="player-metadata floatleft">
+                  <li><span>Birth Date</span>September 21, 1985 (Age: 31)</li>
+                    <li><span>Birthplace</span>Hato Mayor, Dominican Republic</li>
+                      <li><span>Experience</span>7 years</li>
+                        <li><span>College</span>None</li>
+                          <li><span>Ht/Wt</span>5-11, 198 lbs.</li></ul></div>
+                            <div class="player-stats"><p>2016 Season</p>
+                              <table class="header-stats">
+                                <thead><tr><th>ERA</th><th>SV</th><th>SO</th><th>WHIP</th></tr></thead>
+                                <tbody><tr><td>4.52</td><td>0</td><td>74</td><td>1.36</td></tr>
+                                  <tr class="title"><td colspan="4"><p>Career</p></td></tr>
+                                  <tr class="career"><td>3.75</td><td>12</td><td>462</td><td>1.23</td></tr></tbody></table></div></div> -->
+                        <!-- end espn -->
+
+
+
+
+
+<style type="text/css">.mod-header-no-headshot.mod-page-header ul.player-favorites li { margin: 0 0 0 6px !important; }</style>
+  <div class="mod-container mod-no-header-footer mod-page-header">
+    <div class="player-shadows">
+      <div class="shadow-right"></div>
+        <div class="shadow-left"></div></div>
+          <div class="mod-content">
+            <div class="team-logo"></div>
+                <div ng-repeat="player in roster | filter:{id: playerId}:true">
+                    <div class="main-headshot"><img ng-src="{{player.pic}}" alt=""></div>
+                    <div class="player-bio">
+                      <h1>{{player.name}}</h1>
+                      <div class="line-divider"></div>
+                        <ul class="general-info">
+                          <li class="first">#{{player.player_number}},  {{player.pos1}}</li>
+                          <li>Throws:{{player.throws}}</li>
+                          <li>Bats:{{player.bats}}</li>
+                          <!-- <li class="last">Orem Tigers</li> -->
+                        </ul>
+                        <ul class="player-metadata floatleft" >
+                          <li><span>Age: </span>{{player.age}}</li>
+                          <li><span>Team: </span>{{player.team}}</li>
+                          <li><span>Ht. </span>{{player.height}}</li>
+                          <li><span>Wt. </span>{{player.weight}}lbs.</li>
+                        </ul>
+                    </div>
+                    <div class="player-stats">
+                      <h1>2016 Season</h1>
+                      <table class="header-stats">
+                        <thead>
+                          <th>AVG</th>
+                            <th>HR</th>
+                            <th>RBI</th>
+                          <th>OBP</th>
+                        </thead>
+                        <tr>
+                          <td>{{player.avg}}</td>
+                            <td>{{player.hr}}</td>
+                            <td>{{player.rbi}}</td>
+                          <td>{{player.obp}}</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="mod-container mod-table mod-no-header-footer">
+                      <div class="mod-content">
+
+                        <table cellspacing="1" cellpadding="3" class="tablehead" ng-show="showVarsity">
+
+                            <!-- Varsity Team -->
+                          <tr class="stathead">
+                            <td colspan="16">Stats</td>
+                          </tr>
+                          <tr>
+                          <tr class="colhead">
+                          <tr class="evenrow player-10-30">
+                            <th>&nbsp;</th>
+                            <th style="text-align: right;" >GP</th>
+                            <th style="text-align: right;" >AB</th>
+                            <th style="text-align: right;" >R</th>
+                            <th style="text-align: right;" >H</th>
+                            <th style="text-align: right;" >2B</th>
+                            <th style="text-align: right;" >3B</th>
+                            <th style="text-align: right;" >HR</th>
+                            <th style="text-align: right;" >RBI</th>
+                            <th style="text-align: right;" >BB</th>
+                            <th style="text-align: right;" >SO</th>
+                            <th style="text-align: right;" >SB</th>
+                            <th style="text-align: right;" >AVG</th>
+                            <th style="text-align: right;" >OBP</th>
+                            <th style="text-align: right;" >SLG</th>
+                          </tr>
+                          <tr class="oddrow player-10-30">
+                            <td>2016 Season</td>
+                            <td class="textright">{{player.gp}}</td>
+                            <td class="textright">{{player.ab}}</td>
+                            <td class="textright">{{player.r}}</td>
+                            <td class="textright">{{player.h}}</td>
+                            <td class="textright">{{player.dbl}}</td>
+                            <td class="textright">{{player.tpl}}</td>
+                            <td class="textright">{{player.hr}}</td>
+                            <td class="textright">{{player.rbi}}</td>
+                            <td class="textright">{{player.bb}}</td>
+                            <td class="textright">{{player.so}}</td>
+                            <td class="textright">{{player.sb}}</td>
+                            <td class="textright">{{player.avg}}</td>
+                            <td class="textright">{{player.obp}}</td>
+                            <td class="textright">{{player.slg}}</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript"></script>
+
+  <div id="global-viewport" data-behavior="global_nav_condensed global_nav_full"  class =" interior" >
+
+<header id="global-header" class="espn-en user-account-management has-search">
+
+<nav id="global-nav" data-loadtype="server">
+<ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
+</nav>
+
+
+
+
+
+
+                      <!-- <tr class="title"><td colspan="4"><p>Career</p></td></tr>
+                      <tr class="career">
+                      <td>3.75</td>
+                      <td>12</td>
+                      <td>462</td>
+                      <td>1.23</td></table></div></div> -->
+                      <!-- <div class="header-bg"></div> -->
+                      <!-- <div class="field"></div> -->
+                      <div class="header-overlay"></div></div>
+                      <!-- <div class="player-select-header"><p>Go to</p> -->
+                      <div class="mod-split-menu">
+                      <div class="split-select" id="23">
+                      <!-- <a class="btn-split-btn">Antonio Bastardo</a></div></div></div> -->
+                      <div class="mod-page-tabs mod-pagenav-tabs">
+                      <ul class="ui-tabs">
+
+                          <div id="my-players-table">
+                            <div class="span-6 last">
+                              <table class="player-profile-container">
+                                <tr><td class="profile-overview" colspan="2"></td></tr>
+                                  <tr><td class="profile-overview">
+
+
+
+                                      <!-- [@id="my-players-table"]/div[1]/div[1]/div[2]/table/tbody/tr[2]/td[2] -->

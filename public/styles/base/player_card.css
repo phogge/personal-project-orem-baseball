@@ -1,0 +1,26 @@
+
+.main-headshot img {
+  width: 250px;
+  float: left;
+}
+.player-bio {
+  float: left;
+  padding: 0 0 0 55px;
+}
+.player-stats {
+  float: left;
+  padding: 0 0 0 38px;
+}
+
+/*.mlb.player-card.team-23 .mod-page-header .team-logo {
+  background-image: url(../img/conf/orem/orem_tigers_logo.png&w=110&h=110&transparent=true);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: transparent;
+}*/
