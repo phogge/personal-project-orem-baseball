@@ -35,11 +35,10 @@
 
 
 
-<style type="text/css">.mod-header-no-headshot.mod-page-header ul.player-favorites li { margin: 0 0 0 6px !important; }</style>
   <div class="mod-container mod-no-header-footer mod-page-header">
-    <div class="player-shadows">
-      <div class="shadow-right"></div>
-        <div class="shadow-left"></div></div>
+    <!-- <div class="player-shadows"> -->
+      <!-- <div class="shadow-right"></div> -->
+        <!-- <div class="shadow-left"></div></div> -->
           <div class="mod-content">
             <div class="team-logo"></div>
                 <div ng-repeat="player in roster | filter:{id: playerId}:true">
@@ -48,6 +47,7 @@
                       <h1>{{player.name}}</h1>
                       <div class="line-divider"></div>
                         <ul class="general-info">
+                          <div class="line-divider"></div>
                           <li class="first">#{{player.player_number}},  {{player.pos1}}</li>
                           <li>Throws:{{player.throws}}</li>
                           <li>Bats:{{player.bats}}</li>

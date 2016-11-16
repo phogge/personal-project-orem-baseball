@@ -1,58 +1,1783 @@
 /*pagetype_clubhouse*/
-@charset "UTF-8";body.clubhouse{background-image:url(/prod/assets/clubhouses/2010/default.jpg) !important;background-repeat:repeat-x}
 
-body.clubhouse .nav-main-breadcrumbs,body.clubhouse .nav-main-breadcrumbs a{color:#999}
+@charset "UTF-8";
+body.clubhouse {
+    background-image: url(/prod/assets/clubhouses/2010/default.jpg) !important;
+    background-repeat: repeat-x
+}
 
-body.clubhouse #subheader{background:none !important}
+body.clubhouse .nav-main-breadcrumbs, body.clubhouse .nav-main-breadcrumbs a {
+    color: #999
+}
 
-body.clubhouse #sub-branding{padding:16px 0 24px;overflow:hidden;clear:both}
+body.clubhouse #subheader {
+    background: none !important
+}
 
-body.clubhouse #sub-branding h1,body.clubhouse #sub-branding h2{font-size:30px;color:#fff;text-shadow:1px 1px 1px #000;font-style:italic;line-height:38px;font-weight:900;padding:0 20px 0 0;float:left}
+body.clubhouse #sub-branding {
+    padding: 16px 0 24px;
+    overflow: hidden;
+    clear: both
+}
 
-body.clubhouse #sub-branding h1 a,body.clubhouse #sub-branding h2 a{color:#fff;text-decoration:none}
+body.clubhouse #sub-branding h1, body.clubhouse #sub-branding h2 {
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-style: italic;
+    line-height: 38px;
+    font-weight: 900;
+    padding: 0 20px 0 0;
+    float: left
+}
 
-body.clubhouse #sub-branding .team-info,body.clubhouse #sub-branding .sub-title{font-size:14px;font-weight:700;color:#ffc;padding:0 4px 0 0;overflow:hidden;clear:both}
+body.clubhouse #sub-branding h1 a, body.clubhouse #sub-branding h2 a {
+    color: #fff;
+    text-decoration: none
+}
 
-body.clubhouse #sub-branding a.btn-add-fave-team{padding:0 8px;line-height:20px;margin:8px 0 0;float:left;border:1px solid #999;-moz-border-radius:4px;-webkit-border-radius:4px;color:#ddd;display:block;font-size:11px;display:none}
+body.clubhouse #sub-branding .team-info, body.clubhouse #sub-branding .sub-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffc;
+    padding: 0 4px 0 0;
+    overflow: hidden;
+    clear: both
+}
 
-body.clubhouse #sub-branding a.btn-add-fave-team:hover{cursor:pointer;background:#fff;color:#222;text-decoration:none}
+body.clubhouse #sub-branding a.btn-add-fave-team {
+    padding: 0 8px;
+    line-height: 20px;
+    margin: 8px 0 0;
+    float: left;
+    border: 1px solid #999;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #ddd;
+    display: block;
+    font-size: 11px;
+    display: none
+}
 
-body.clubhouse #sub-branding a.btn-add-fave-team.favorite{font-size:10px}
+body.clubhouse #sub-branding a.btn-add-fave-team:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #222;
+    text-decoration: none
+}
 
-body.clubhouse .bg-opaque{background-color:#fff !important;margin-left:-10px;padding:10px;overflow:visible;clear:both;-moz-border-radius:0 0 8px 8px;-webkit-border-bottom-left-radius:8px;-webkit-border-bottom-right-radius:8px}
+body.clubhouse #sub-branding a.btn-add-fave-team.favorite {
+    font-size: 10px
+}
 
-body.clubhouse .bg-full{position:absolute;height:70px;width:944px;bottom:-12px;left:-10px;background:#fff url('/prod/assets/clubhouses/2010/bg_full_gradient.jpg') 0 100% repeat-x}
+body.clubhouse .bg-opaque {
+    background-color: #fff !important;
+    margin-left: -10px;
+    padding: 10px;
+    overflow: visible;
+    clear: both;
+    -moz-border-radius: 0 0 8px 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px
+}
 
-body.clubhouse .mod-container h3{color:#666;font-family:helvetica,arial,sans-serif;font-size:12px;line-height:28px;padding:0 4px}
+body.clubhouse .bg-full {
+    position: absolute;
+    height: 70px;
+    width: 944px;
+    bottom: -12px;
+    left: -10px;
+    background: #fff url('/prod/assets/clubhouses/2010/bg_full_gradient.jpg') 0 100% repeat-x
+}
 
-body.clubhouse .mod-container h3.hide{position:absolute;left:-999em}
+body.clubhouse .mod-container h3 {
+    color: #666;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 28px;
+    padding: 0 4px
+}
 
-body.clubhouse .mod-container h4{text-transform:uppercase;font-family:helvetica,arial,sans-serif;color:#fff;line-height:25px;font-size:12px;letter-spacing:.3px;margin:0;padding:0 0 0 10px;clear:both;height:25px;overflow:hidden}
+body.clubhouse .mod-container h3.hide {
+    position: absolute;
+    left: -999em
+}
 
-body.clubhouse .mod-container .inline-header{
-  border-bottom: 1px #ddd solid;
-  overflow:hidden;margin:0 0 6px;
-  padding:0 0 2px;
-  position:relative;
-  }
+body.clubhouse .mod-container h4 {
+    text-transform: uppercase;
+    font-family: helvetica, arial, sans-serif;
+    color: #fff;
+    line-height: 25px;
+    font-size: 12px;
+    letter-spacing: .3px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    clear: both;
+    height: 25px;
+    overflow: hidden
+}
 
-body.clubhouse .mod-container p.footer a{
-  color:#225db7;
-  padding-left:10px
-  }
+body.clubhouse .mod-container .inline-header {
+    border-bottom: 1px #ddd solid;
+    overflow: hidden;
+    margin: 0 0 6px;
+    padding: 0 0 2px;
+    position: relative;
+}
 
-body.clubhouse .mod-subnav-tabs{
-  width:944px;
-  margin:12px 0 12px -10px;
-  background:#f5f5f5
-  }
+body.clubhouse .mod-container p.footer a {
+    color: #225db7;
+    padding-left: 10px
+}
 
-body.clubhouse .mod-header.group{background:none !important;height:30px}body.clubhouse .mod-header.group h3{float:left}.mod-section-header{padding:10px 0;overflow:hidden}
+body.clubhouse .mod-subnav-tabs {
+    width: 944px;
+    margin: 12px 0 12px -10px;
+    background: #f5f5f5
+}
 
-.mod-section-header h2,.mod-section-header h1.h2{
-  font-size:24px;
-  float:left;
-  padding:2px 10px 0 0
-  }
+body.clubhouse .mod-header.group {
+    background: none !important;
+    height: 30px
+}
 
-.mod-section-header .mod-filter-year{float:left;overflow:hidden}.mod-section-header .mod-filter-year .trigger{border-width:1px;border-style:solid;border-color:#ccc;padding:4px 4px 0 6px;line-height:20px;overflow:hidden;font-size:18px;font-weight:700;float:left;color:#000;position:relative;z-index:801;-moz-border-radius:6px;-webkit-border-radius:6px;background-color:#ddd;background:-moz-linear-gradient(15% 85% 90deg,#ddd,#fff);background:-webkit-gradient(linear,0 20%,0 100%,from(#fff),to(#ddd));margin:4px 0 0 0}.ie7 .mod-section-header .mod-filter-year .trigger{padding:6px}.mod-section-header .mod-filter-year .trigger.active{border-width:1px 1px 0;-moz-border-radius:6px;-webkit-border:6px}.mod-section-header .mod-filter-year .trigger span{font-size:10px;position:relative;top:-3px}.mod-section-header .mod-filter-year .trigger:hover{text-decoration:none;color:#225db7}.mod-section-header .select-box{float:right}.mod-section-header .mod-filter-year .trigger,.mod-section-header .mod-select-year{font-size:18px;width:66px}.mod-section-header .mod-select-year{position:absolute;top:34px;z-index:800;padding:0 6px 0 8px;background:#ddd;border:1px solid #ccc;height:auto;overflow:auto;height:170px;display:none;width:66px;-moz-border-radius:6px;-webkit-border-radius:6px}.ie7 .mod-section-header .mod-select-year{width:64px;padding:0 8px 0 6px}.mod-section-header .mod-select-year ul{padding:2px 0}.mod-section-header .mod-select-year ul li{float:left;text-align:center;padding:0;margin:0;font-weight:700;color:#333;font-size:18px;height:auto;width:auto;clear:both}.mod-section-header .mod-select-year ul li.active{background:0}.mod-section-header .mod-select-year ul li.inactive{color:#888}.mod-section-header .mod-select-year ul li.last{border:0}.mod-section-header .mod-select-year ul li a{color:#225db7}body.clubhouse .mod-game h4{text-transform:capitalize;color:#999;font-size:11px;padding:0;border-color:#ddd;border-style:solid;border-width:0 0 1px}body.clubhouse .mod-game h4 span{float:right;position:relative;right:auto;top:auto;font-size:inherit;color:inherit}body.clubhouse .ie7 .mod-game h4 span{position:absolute;right:6px;top:0}.mod-game .mod-content{color:#666;padding:0 0 10px;border-width:0 0 1px;border-color:#ddd;font-size:10px;line-height:12px}.mod-game .mod-content p.links{padding:6px 0 0;clear:both;margin:0;line-height:17px}.mod-game .mod-content p.links a{font-size:10px;margin:0 5px}.mod-game .mod-content .overview{border-bottom:1px solid #ddd;margin:0 0 6px;overflow:hidden;padding:6px 0}.mod-game .mod-content .overview div{float:left}.mod-game .mod-content .overview .home-away{font-weight:700;padding:16px 0 0;width:16px}.mod-game .mod-content .overview .logo{overflow:hidden}.mod-game .mod-content .overview .results{font-size:20px;font-weight:700;line-height:20px;font-family:helvetica,arial,sans-serif;padding:8px 0 0 6px}.mod-game .mod-content .overview .results .win{color:#063;display:block}.mod-game .mod-content .overview .results .loss{color:red;display:block}.mod-game .mod-content .overview .results .none{color:#000;display:block}.mod-game .mod-content .overview .venue{color:#666;font-size:9px;line-height:11px;text-align:right;float:none}.mod-game .mod-content .overview .venue span{display:block;font-size:10px;font-weight:700}.mod-game .mod-content .overview .city{clear:left;color:#999;font-size:9px;font-weight:700;width:120px;text-align:left}.mod-game .mod-content .stats{float:left;margin:0 5px 0 0;width:auto}.mod-game .mod-content .stats span{display:block}.mod-game .mod-content ul.links{overflow:hidden}body.clubhouse .mod-game.current h4{background:#ddd;border-width:1px 1px 0;border-color:#bbb;color:#333;padding:0 10px;font-size:12px}.mod-game.current .mod-content{border-width:0 1px 1px;border-color:#ccc;padding:2px}.mod-game.current .gradient-container{padding:6px}.mod-game.current .mod-content .game-details{margin:0 0 10px;overflow:hidden}.mod-game.current .mod-content .game-details .time{font-weight:700;float:left}.mod-game.current .mod-content .game-details .venue{text-align:right;float:right}.mod-game.current .mod-content .game-details .venue span{display:block;font-weight:700}.mod-game.current .mod-content .overview{text-align:center;border-bottom:0;margin:0;padding:0}.mod-game.current .mod-content .overview .symbol{font-size:16px;padding:30px 0 0;color:#111;line-height:20px;font-family:helvetica,arial,sans-serif}.mod-game.current .mod-content .overview .team{width:134px;color:#333;text-align:center}.mod-game.current .mod-content .overview .team-home{float:right}.mod-game.current .mod-content .overview .team .logo{float:none;margin:0 auto}.mod-game.current .mod-content .overview .team .record{color:#333;text-align:center;float:none;line-height:12px;padding:4px 0}.mod-game.current .mod-content .overview .team .record h6{font-size:12px;display:inline}.mod-game.current .mod-content .overview .team .player-highlight{float:none;text-align:center}.mod-game.current .mod-content .overview .team .player-highlight a{display:block}.mod-game.current .mod-content .overview .team .player-highlight img{margin:4px 0}.mod-game.current .mod-content .scoring{clear:both;padding:10px 0 5px;width:100%}.mod-game.current .mod-content .scoring table{margin:0 auto;color:#666;font-size:10px}.mod-game.current .mod-content .scoring table th,.mod-game.current .mod-content .scoring table td{padding:2px 4px;font-weight:400}.mod-game.current .mod-content .scoring table th.total{font-weight:700}.mod-game.current .mod-content .scoring table tbody{color:#333}.mod-game.current .mod-content .scoring table tbody th,.mod-game.current .mod-content .scoring table tbody td{border:0}.mod-game.current .mod-content .scoring table tbody th{color:#555;font-weight:normal}.mod-game.current .mod-content .scoring table td.total{font-weight:700;background:#ddd}.mod-game.current .mod-content .scoring table td.overall{color:#000}.mod-game.current.pre .mod-content .overview .team .player-highlight a{display:inline}.mod-stat .mod-content{border:0;margin:0 0 6px;font-size:10px;color:#666;padding:6px 10px}.mod-stat .mod-content .stat{float:right;color:#333;font-size:14px;font-family:helvetica,arial,sans-serif;font-weight:700}.mod-stat .mod-content strong{color:#000;display:block;font-family:helvetica,arial,sans-serif;font-size:30px;line-height:30px}.mod-stat-leaders{margin:0 0 6px;overflow:hidden;border-bottom:1px solid #ddd}.mod-stat-leaders .mod-stat .mod-content{padding:6px 10px 6px 0;font-size:11px}.mod-stat-leaders .mod-stat .mod-content ul.player-info li{line-height:12px;overflow:hidden;padding:0 0 2px;color:#444}.mod-stat-leaders .mod-stat .mod-content ul.player-info li.position{font-weight:400}.mod-stat-leaders .mod-stat .mod-content ul.player-info li.stat{font-size:24px;float:none;color:#000;padding:12px 0 2px;line-height:24px}.mod-content-feed .mod-content{padding:10px 16px;color:#333}.mod-content-feed .mod-paginator{padding:8px 0;overflow:hidden;position:relative}.mod-content-feed .mod-results-header{margin:0;border-bottom:1px #ddd solid}.mod-content-feed .mod-results-header h2{font-size:11px;color:#000;float:left;width:400px;padding:0 10px 0 0}.mod-content-feed .mod-results-footer{margin:20px 0;border-top:1px solid #ccc;height:25px !important}.mod-content-feed .mod-paginator .controls{font-size:10px;color:#444;position:absolute;right:10px;top:6px}.mod-content-feed .mod-paginator .controls .page-txt{width:40px;border:1px solid #ddd;text-align:center;color:#444;font-size:10px;padding:2px}.mod-content-feed .mod-paginator .controls .page-numbers{float:left;padding:0 6px}.mod-content-feed .mod-paginator .controls a.page-btn{background:transparent url(/prod/assets/master_search.png) 0 0 no-repeat;float:left;height:18px;width:18px}.mod-content-feed .mod-paginator .controls a.page-prev{background-position:0 -33px}.mod-content-feed .mod-paginator .controls a.page-prev:hover{background-position:-19px -33px}.mod-content-feed .mod-paginator .controls a.page-prev-disabled{background-position:-38px -33px}.mod-content-feed .mod-paginator .controls a.page-prev-disabled:hover{background-position:-38px -33px}.mod-content-feed .mod-paginator .controls a.page-next{background-position:-95px -33px}.mod-content-feed .mod-paginator .controls a.page-next:hover{background-position:-76px -33px}.mod-content-feed .mod-paginator .controls a.page-next-disabled{background-position:-57px -33px}.mod-content-feed .mod-paginator .controls a.page-next-disabled:hover{background-position:-57px -33px}.mod-content-feed .result{color:#333;padding:10px 0;border-bottom:1px #ddd solid;overflow:hidden}.mod-content-feed .result.last{border:0}body.clubhouse .mod-content-feed .result h3{font-family:Helvetica,Arial,sans-serif;padding:0;color:#666;font-size:14px;line-height:16px;margin-bottom:5px}body.clubhouse .mod-content-feed .result h4{color:#666;font-size:12px;line-height:14px;margin-bottom:5px;padding:0;letter-spacing:normal;text-transform:none;height:auto}.mod-content-feed .result .floatleft{margin:0 8px 4px 0}.mod-content-feed .result cite{color:#999;padding:0;float:left;font-style:normal;font-size:10px}.mod-content-feed .result p{margin:0 0 5px;overflow:hidden}.mod-content-feed .result .mod-video-rating{float:none;display:block;overflow:hidden}.mod-content-feed .result .mod-video-rating strong{float:left;margin-right:6px}.mod-content-feed .result .mod-video-tags{float:none;display:block;margin-top:6px}.mod-content-feed .result .local{margin:0 0 0 4px}.mod-content-feed .result .local.new-york{text-indent:-1000px;background:url(/prod/assets/clubhouses/2010/logo_espn_newyork_small.png) no-repeat;display:block;width:107px;height:15px;float:right}.mod-content-feed .result.local-callout .logo{float:left;padding:5px 0 0;margin:0 10px 0 0}.view-more-posts,a.view-more-posts:visited{background:url(/prod/assets/clubhouses/2010/bg_more_posts_sprite.png) repeat-x 0 0;width:580px;height:30px;text-align:center;font-family:helvetica,arial,sans-serif;font-size:14px;font-weight:700;line-height:30px;color:white !important;display:block;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}.view-more-posts:hover{background:url(/prod/assets/clubhouses/2010/bg_more_posts_sprite.png) repeat-x 0 -30px;text-decoration:none}.view-more-posts img{padding:6px 0}#clubhouse-video-player,#clubhouse-video-player-container{position:absolute}.vid-icon{background:transparent url(/prod/assets/icon_video.png) no-repeat scroll 0 0;position:absolute;width:25px;height:25px;opacity:.75;top:6px;left:6px;filter:alpha(opacity=75)}.mod-features h3{border-bottom:1px #ddd solid}.mod-features .mod-article-capsule .mod-content{padding:10px;border:0}.mod-features .span-2 .mod-article-capsule h6{font-size:22px;line-height:26px}.mod-features .span-1 .mod-article-capsule h6{line-height:20px}.mod-features .mod-article-capsule p{margin:10px 0;color:#333;line-height:14px}body.clubhouse ul.links-row{float:right;overflow:hidden;margin:0 0 6px}body.clubhouse ul.links-row li{float:left;margin:0 0 0 10px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:11px}body.clubhouse .links-row li a{color:#225db7}.mod-myespn .mod-content .inline-header h4{height:auto;padding:0;color:#444;line-height:18px}.mod-myespn .mod-content .inline-header ul.links{position:absolute;right:6px;top:2px;text-align:right;line-height:10px;font-size:10px}.mod-myespn .mod-content .inline-header ul.links li{float:left;margin:0 0 0 10px}body.clubhouse .mod-myespn .mod-content .inline-header h4{width:100px;background:url(/prod/assets/clubhouses/2010/logo_myespn_60x10.png) no-repeat;text-indent:-1000px}body.clubhouse .mod-myespn .gradient-container{padding:6px}body.clubhouse .mod-myespn .mod-content .logo-small{float:left;margin:0 6px 0 0}body.clubhouse .mod-myespn .mod-content a img{float:left;margin:0 6px 6px 0}body.clubhouse .mod-myespn .mod-content .logo-small{margin:0 6px 6px 0}body.clubhouse .mod-myespn .mod-content .logo-medium{margin:0 6px 6px 0;float:left}.mod-data-table .mod-content{padding:8px 8px 0}.mod-data-table h5{margin:0 0 6px}.mod-data-table .featured-stat{margin:0 0 10px;overflow:hidden;line-height:13px;color:#666;font-size:11px}.mod-data-table .featured-stat img{float:left;margin:0 10px 0 0}.mod-data-table .featured-stat .stat{float:right;font-size:30px;font-family:Helvetica,Arial,sans-serif;font-weight:700;color:#000;line-height:30px}.mod-data-table .featured-stat ul.player-info{float:left}.mod-data-table .featured-stat ul li a{font-weight:700}.mod-data-table .featured-stat ul li strong{color:#000}.mod-data thead tr th{background:0}.mod-data tbody{border-width:1px 0;border-color:#ddd;border-style:solid}.mod-data tbody tr.highlight td,.mod-data tbody tr.highlight th{font-weight:700}.mod-data-table .footer{padding:6px 0}.mod-featured .mod-data{width:212px;clear:none}.mod-featured .footer{clear:none}.mod-featured th{color:#666}body.clubhouse .mod-table .mod-header.group select{float:right;margin:2px 25% 0 0}body.clubhouse .mod-table .mod-header.group .data-view{float:right;color:#666;font-size:11px;font-weight:700;padding:4px 0 0}body.clubhouse .mod-table .mod-header.group .data-view input{margin:0 0 0 12px;vertical-align:top}body.clubhouse .ie7 .mod-table .mod-header.group .data-view input{position:relative;top:-4px;margin:0}body.clubhouse .mod-info-vis h4{color:#666;padding:0 2px;margin:0 14px 0 0;border-bottom:1px solid #ccc}.mod-team-footer{overflow:hidden;margin:20px 0}.mod-team-footer .logo-medium{float:left;margin:0 10px 0 0}body.clubhouse .mod-team-footer h3{font-size:18px}.mod-team-footer li{float:left;font-size:10px;margin:0 0 10px;font-weight:700;line-height:11px}.mod-team-footer li a{color:#666;display:block;padding:0 6px;line-height:20px}.mod-team-footer li.active a{background:#666;color:#fff;-moz-border-radius:5px;-webkit-border-radius:5px}.clubhouse .subhead{float:left;padding:10px 0;width:100%}.clubhouse .mod-content .subhead h3{float:left;color:#333;font-size:18px;font-family:Arial,Helvetica,sans-serif;padding:0 0 0 12px}.clubhouse .subhead .page-actions{float:right}.mod-weather.mod-open-list .mod-content ul li ul li{background:transparent none !important}.mod-weather ul.forecast li ul{float:left;width:100%}.mod-weather ul.forecast li ul li{float:left;font-size:14px;font-weight:700;clear:none;border:0}.mod-weather ul.forecast li ul li img{width:30px;height:30px;padding:6px}.mod-weather ul.forecast li ul li span{display:block;color:#999;font-size:10px;margin:4px 0 0 0}.mod-weather ul.forecast li ul li.temp{float:right;margin:18px 4px 0 0}.mod-passport-img ul,.mod-passport-img ul li,.mod-passport-img ul li ul li{float:left}.mod-passport-img ul li ul li{overflow:hidden}.mod-passport-img ul li ul li.img-left{margin:0 8px 0 0}.mod-passport-img ul li ul.top-border li img{margin:8px 0 0 0}.mod-passport-img ul li ul li.img-right{border-left:#c2c2c2 1px solid;padding:0 0 0 8px}.mod-passport-img ul li ul.top-border{border-top:#c2c2c2 1px solid}body.clubhouse .depth-chart-tail{background:transparent url(/prod/assets/clubhouses/2010/depth-chart-tail.png) no-repeat;height:7px;position:absolute;width:9px;margin:-2px 0 0 0}body.clubhouse .depth-chart-tail.left{margin-left:14px}body.clubhouse .depth-chart-tail.center{margin-left:40px}body.clubhouse .depth-chart-tail.right{margin-left:68px}.mod-open-list .mod-content.mod-manager ul li{background:0;font-weight:700}.mod-open-list .mod-content.mod-manager ul li dl{margin:0}.mod-manager ul.player-info{float:left}.mod-manager ul.player-stat{float:right}.mod-manager .mod-content{color:#444;font-size:11px}.mod-manager .mod-content ul{font-weight:700;padding:6px 8px}.mod-manager .mod-content ul.player-stat li.record{font-weight:normal}.mod-section-header.stadium{border-bottom:1px solid #ddd;margin:0 0 8px;padding:10px 0 0}.clubhouse .mod-stadium .mod-content{background:0;border-width:0 1px 0 0}.clubhouse .mod-stadium img{float:left}.clubhouse .mod-stadium ul.stadium-info{margin:0 0 0 294px}.clubhouse .mod-stadium ul.stadium-info li{color:#666;font-weight:700;padding:0 0 2px 0}.clubhouse .mod-stadium ul.stadium-info li.name{min-height:72px}.clubhouse .mod-stadium ul.stadium-info li.name span{line-height:14px}.clubhouse .mod-stadium ul.stadium-info li.capacity span{color:#666;font-size:18px;font-family:Arial,Helvetica,sans-serif}.clubhouse .mod-stadium ul.stadium-info li h3{font-size:18px;color:#000;font-family:Arial,Helvetica,sans-serif;padding:0;line-height:20px}.clubhouse .mod-stadium ul.stadium-links li{padding:0 0 2px 0;color:#666}.clubhouse .mod-stadium ul.stadium-links li h6,.clubhouse .mod-stadium ul.stadium-info li h6{color:#000}.clubhouse .mod-stadium ul.stadium-links span,.clubhouse .mod-stadium ul.stadium-info li span{display:block}.mod-content ul.rated-list li{border:0}.mod-content ul.rated-list li dl{margin:0 0 0 10px;padding:8px 6px 8px 0}.mod-content ul.rated-list li dl span{font-weight:700;font-size:100%}.mod-stadium-detail .mod-content p span{display:block;font-weight:bold}.mod-stadium-detail p.footer,.mod-city-guide p.footer{height:auto;font-style:italic}.mod-city-guide .subhead h3{color:#333;font-size:18px;font-family:Arial,Helvetica,sans-serif;float:left}.mod-stadium-detail .mod-content h4,.mod-city-guide .mod-content h4{border-bottom:1px solid #c2c2c2;color:#333 !important;margin:0 0 0 10px !important;padding:8px 0 4px !important;clear:none !important}.field-surface{background:url(/prod/assets/clubhouses/2010/field_surface_sprite.png);background-repeat:no-repeat;height:30px;width:30px}.field-surface.grass,.field-surface.turf{background-position:0 0}.mod-calendar-month table{width:100%}.mod-calendar-month .mod-header h4{text-align:center;font-size:16px !important;font-weight:normal}.mod-calendar-month .mod-header span{position:absolute;left:2px;width:100%;top:4px}.mod-calendar-month .mod-header a.next,.mod-calendar-month .mod-header a.prev{text-decoration:none;width:20px;margin:0 5px;float:left;line-height:20px;background:transparent url(../../assets/scrollers-sprite.png) 0 50% no-repeat}.mod-calendar-month .mod-header a.next{background-position:-126px 50%;margin:-1px 6px 0 0;float:right}.mod-calendar-month .mod-header a.next:hover{text-decoration:none;background-position:-101px 50%}.mod-calendar-month .mod-header a.prev{background-position:0 0 50%;margin:-1px 0 0 0;float:left}.mod-calendar-month .mod-header a.prev:hover{text-decoration:none;background-position:-25px 50%}.mod-calendar-month table th,.mod-calendar-month table td{padding:1px;border-top:#999 1px solid}.mod-calendar-month table tr.util td{border-top:0}.mod-calendar-month tr.util{line-height:20px;font-size:10px;border-width:0 0 1px 0 !important;border-color:#ccc;border-style:solid}.mod-calendar-month tr.util td ul.key li{float:left;color:#666;padding:0 20px 0 0}.mod-calendar-month tr.util td ul.key li span{width:10px;height:10px;display:block;float:left;margin:4px;border:#ccc 1px solid}.mod-calendar-month tr.util td ul.key li span.today{background:#ffc}.mod-calendar-month tr.util td.print-action{text-align:right}.mod-calendar-month tr.util td.print-action a{background:transparent url(/prod/assets/pt_print.gif) no-repeat;padding:0 4px 4px 18px;color:#666}.mod-calendar-month tr.cal-day-names{line-height:20px}.mod-calendar-month tr.cal-day-names th{font-weight:normal;color:#999 !important}.mod-calendar-month table td{border-right:#ccc 1px solid;overflow:hidden;vertical-align:top}.mod-calendar-month table td.day{width:10%;height:106px}.mod-calendar-month table td.day.away,.mod-calendar-month td.day.away .day-top,ul.key li span.away{background:#e5e5e5}.mod-calendar-month table td.day.today{background:#ffc}.mod-calendar-month tabletd.day a:hover{text-decoration:none}.mod-calendar-month table td.last{border-right:0}.mod-calendar-month table th{text-align:center}.mod-calendar-month div.day{background:#f6f6f6 url(../../assets/calendar/calendar_carousel_day_bg.jpg) repeat-x center;line-height:20px;padding:0 0 0 4px;text-align:left;border-bottom:#e0e0e0 1px solid;margin:0 0 4px 0;color:#333;font-size:12px;font-weight:700;font-family:helvetica,arial,sans-serif}.mod-calendar-month div.day-top{height:6px;background:#eee;top:0}.mod-calendar-month div.day a.show-info,ul.game-schedule li a.show-info{float:right;background:url(../../assets/icons/calendar_info.png) no-repeat;height:12px;width:12px;margin:4px 4px 0 0;padding:0 4px 0 0}.mod-calendar-month ul.cal-day{float:left;width:100%;padding:0;margin:0;top:0}.mod-calendar-month ul.cal-day li{display:block}.mod-calendar-month ul.cal-day li.game-info{clear:both}.mod-calendar-month ul.cal-day li.game-info ul li,ul.game-schedule li{float:left;display:inline;color:#666;font-size:14px;font-weight:700;font-family:helvetica,arial,sans-serif;padding:4px}.mod-calendar-month ul.cal-day li.game-info ul li a,ul.game-schedule li a,.mod-table .mod-content ul.game-schedule li a:visited{color:#666 !important}.mod-calendar-month ul.cal-day li.game-info ul li.game-time{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:10px;padding-right:0}.mod-calendar-month ul.cal-day li.game-info ul li.game-time span{display:block;font-weight:normal}.mod-calendar-month ul.cal-day li.game-info ul li.game-status,ul.game-schedule li.game-status{line-height:20px;font-weight:normal}.mod-calendar-month ul.cal-day li.game-info ul li.game-status.win,.mod-calendar-month ul.cal-day li.game-info ul li.game-status.win a,.mod-table .mod-content ul.game-schedule li.game-status.win,.mod-table .mod-content li.game-status.win a:visited{color:#063 !important;font-weight:700}.mod-calendar-month ul.cal-day li.game-info ul li.game-status.loss,.mod-calendar-month ul.cal-day li.game-info ul li.game-status.loss a,.mod-table .mod-content ul.game-schedule li.game-status.loss a,.mod-table .mod-content ul.game-schedule li.game-status.loss,.mod-table .mod-content ul.game-schedule li.game-status.loss a{color:#f00 !important;font-weight:700}li.game-info ul li.team-logo-small a,ul.game-schedule li.team-logo-small a{display:block;width:18px;height:20px;padding:0}.mod-calendar-month ul.cal-day li.game-info ul li.team-logo-small,ul.game-schedule li.team-logo-small{min-height:20px;width:18px}.mod-calendar-month ul.cal-day ul li.day span{float:right}.ie7 .mod-calendar-month div.day a.show-info{margin:-16px 6px 0 0}.ie7 .mod-calendar-month li.game-info{padding:2px 0 0 0;margin:0}.ie7 .mod-calendar-month li.game-info ul{float:left}div.game-info-overlay{display:none}div.game-info-overlay{position:absolute;background:#666;width:104px;margin:-28px 0 0 2px;padding:6px 10px;-moz-border-radius:4px;-webkit-border-radius:4px;font-size:10px;height:86px;overflow:hidden}div.game-info-overlay ul,div.game-info-overlay ul li{clear:both;font-size:10px;padding:0 !important}div.game-info-overlay li a,div.game-info-overlay ul li a:visited,.mod-table .mod-content div.game-info-overlay ul li a:visited{color:#fff !important;font-weight:normal}div.game-info-overlay a.close{float:right;-moz-border-radius:2px;-webkit-border-radius:2px;background:#fff;padding:0 2px;color:#666 !important;cursor:pointer}ul.game-schedule li.team-name{font-weight:normal;font-size:100%;line-height:20px;font-family:Verdana,Arial,Helvetica,sans-serif}ul.game-schedule li.score{margin-right:20px}.mod-split-menu{position:absolute;left:400px;font-size:11px;margin-top:4px;z-index:100}.mod-split-menu .split-select{width:130px}.mod-split-menu .split-select a.btn-split-btn{background-color:#ddd;border:1px solid #ccc;color:#333;border:#999 1px solid;cursor:pointer;padding:2px 10px 4px;clear:both;display:block;text-decoration:none;-moz-border-radius:6px;-webkit-border-radius:6px;background-color:#ddd;background:-moz-linear-gradient(15% 85% 90deg,#ddd,#fff);background:-webkit-gradient(linear,0 20%,0 100%,from(#fff),to(#ddd));background-image:url('/prod/assets/clubhouses/2010/split_arrow.jpg');background-repeat:no-repeat;background-position:110px 3px}.mod-split-menu .split-select a.btn-split-btn span{font-size:10px;color:#333;float:right}.mod-split-menu .split-select a.btn-split-btn:hover,.mod-split-menu .split-select a.btn-split-btn:hover span{color:#225db7}.mod-split-menu .split-level-items{display:none;padding:0;background:transparent url(/prod/assets/clubhouses/2010/bg_clubhouse_split.png) repeat-y left top;float:left;width:130px;z-index:20;border-bottom:#cfcfcf 1px solid;border-top:#cfcfcf 1px solid}.mod-split-menu .split-level-items ul{width:130px}.mod-split-menu .split-level-items,.mod-split-menu .split-level-content{height:380px;position:absolute}.mod-split-menu .split-level-items,.mod-split-menu .split-level-content ul{height:380px}.mod-split-menu .split-level-items li{position:relative;padding:4px 6px;width:140px}.mod-split-menu .split-level-items a,.split-level-content a{cursor:pointer;text-decoration:none;display:block;color:#666}.mod-split-menu .split-level-items .split-hover-bg{background:url(/prod/assets/clubhouses/2010/bg_clubhouse_split_arrow.png) no-repeat -4px 1px}.mod-split-menu .split-level-items .split-hover-bg a{color:#fff;text-decoration:none}.mod-split-menu .split-level-content{width:281px;margin-left:130px;display:none;z-index:10;background:transparent url(/prod/assets/clubhouses/2010/bg_clubhouse_split_gray.png) repeat-y 0 0;height:382px}.mod-split-menu .split-level-content ul{display:none;border-top:#cfcfcf 1px solid;border-bottom:#cfcfcf 1px solid;width:140px}.mod-split-menu .split-level-content ul li{padding:4px 6px 4px 14px}.mod-split-menu .split-level-content ul.two-col{background:#ddd url(/prod/assets/clubhouses/2010/bg_clubhouse_split_gray_right.png) top right repeat-y;width:360px}.mod-split-menu .split-level-content ul li dl{float:left;margin:0;padding:0 26px 0 0;width:auto !important}.mod-split-menu .split-level-content ul li dl.last{padding:0}.mod-split-menu .split-level-content ul li dl dt{color:#555;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:10px;font-weight:700;line-height:normal;padding:8px 0 0}.mod-split-menu .split-level-content ul li dl dt.first{padding-top:10px}.mod-split-menu .split-level-content ul li ul li,li dl dd{background-image:none;display:block;float:none;height:auto;padding:3px 6px 0 0;white-space:nowrap;width:auto}.mod-split-menu .split-level-content ul li a:hover{color:#225db7 !important;text-decoration:underline}.clubhouse .mod-table.mod-salaries .mod-content table{border:#c2c2c2 1px solid;border-collapse:separate}.clubhouse .mod-table .mod-content th,.clubhouse .mod-table .mod-content .colhead a:visited,.colhead a:visited{color:#666 !important;text-decoration:none}th,.colhead td{background:0}body.clubhouse #myespn-personalization,body.clubhouse #clubhouse-city-teams{display:none}body.clubhouse #sub-branding a.btn-add-fave-team.favorite,table.mod-data tbody tr.my-fave td,table.mod-data tbody tr.my-fave th{background:url('/prod/assets/memberservices/ms-bg-fave.gif') top left repeat-x;color:#000;font-weight:700}td.textright,th.textright{text-align:right !important}table.mod-data thead tr th{background:#e8e8e8 url(/prod/assets/module_subheader_gradient.gif) repeat-x scroll 0 0;height:auto}.half{width:50%;padding:0}.leaguerank{text-align:right;line-height:28px;font-size:11px}.leaguerank span.inactive{color:#225db7;cursor:pointer}.overview .scoring th.winner{background:transparent url(/prod/assets/scoreboard_arrow.gif) no-repeat scroll 0 5px;padding-left:10px;font-weight:bold}ul.calendar-game-stats{font-size:9px;padding:3px !important}
+body.clubhouse .mod-header.group h3 {
+    float: left
+}
+
+.mod-section-header {
+    padding: 10px 0;
+    overflow: hidden
+}
+
+.mod-section-header h2, .mod-section-header h1.h2 {
+    font-size: 24px;
+    float: left;
+    padding: 2px 10px 0 0
+}
+
+.mod-section-header .mod-filter-year {
+    float: left;
+    overflow: hidden
+}
+
+.mod-section-header .mod-filter-year .trigger {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 4px 4px 0 6px;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    color: #000;
+    position: relative;
+    z-index: 801;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #ddd;
+    background: -moz-linear-gradient(15% 85% 90deg, #ddd, #fff);
+    background: -webkit-gradient(linear, 0 20%, 0 100%, from(#fff), to(#ddd));
+    margin: 4px 0 0 0
+}
+
+.ie7 .mod-section-header .mod-filter-year .trigger {
+    padding: 6px
+}
+
+.mod-section-header .mod-filter-year .trigger.active {
+    border-width: 1px 1px 0;
+    -moz-border-radius: 6px;
+    -webkit-border: 6px
+}
+
+.mod-section-header .mod-filter-year .trigger span {
+    font-size: 10px;
+    position: relative;
+    top: -3px
+}
+
+.mod-section-header .mod-filter-year .trigger:hover {
+    text-decoration: none;
+    color: #225db7
+}
+
+.mod-section-header .select-box {
+    float: right
+}
+
+.mod-section-header .mod-filter-year .trigger, .mod-section-header .mod-select-year {
+    font-size: 18px;
+    width: 66px
+}
+
+.mod-section-header .mod-select-year {
+    position: absolute;
+    top: 34px;
+    z-index: 800;
+    padding: 0 6px 0 8px;
+    background: #ddd;
+    border: 1px solid #ccc;
+    height: auto;
+    overflow: auto;
+    height: 170px;
+    display: none;
+    width: 66px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px
+}
+
+.ie7 .mod-section-header .mod-select-year {
+    width: 64px;
+    padding: 0 8px 0 6px
+}
+
+.mod-section-header .mod-select-year ul {
+    padding: 2px 0
+}
+
+.mod-section-header .mod-select-year ul li {
+    float: left;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    color: #333;
+    font-size: 18px;
+    height: auto;
+    width: auto;
+    clear: both
+}
+
+.mod-section-header .mod-select-year ul li.active {
+    background: 0
+}
+
+.mod-section-header .mod-select-year ul li.inactive {
+    color: #888
+}
+
+.mod-section-header .mod-select-year ul li.last {
+    border: 0
+}
+
+.mod-section-header .mod-select-year ul li a {
+    color: #225db7
+}
+
+body.clubhouse .mod-game h4 {
+    text-transform: capitalize;
+    color: #999;
+    font-size: 11px;
+    padding: 0;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 0 0 1px
+}
+
+body.clubhouse .mod-game h4 span {
+    float: right;
+    position: relative;
+    right: auto;
+    top: auto;
+    font-size: inherit;
+    color: inherit
+}
+
+body.clubhouse .ie7 .mod-game h4 span {
+    position: absolute;
+    right: 6px;
+    top: 0
+}
+
+.mod-game .mod-content {
+    color: #666;
+    padding: 0 0 10px;
+    border-width: 0 0 1px;
+    border-color: #ddd;
+    font-size: 10px;
+    line-height: 12px
+}
+
+.mod-game .mod-content p.links {
+    padding: 6px 0 0;
+    clear: both;
+    margin: 0;
+    line-height: 17px
+}
+
+.mod-game .mod-content p.links a {
+    font-size: 10px;
+    margin: 0 5px
+}
+
+.mod-game .mod-content .overview {
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 6px;
+    overflow: hidden;
+    padding: 6px 0
+}
+
+.mod-game .mod-content .overview div {
+    float: left
+}
+
+.mod-game .mod-content .overview .home-away {
+    font-weight: 700;
+    padding: 16px 0 0;
+    width: 16px
+}
+
+.mod-game .mod-content .overview .logo {
+    overflow: hidden
+}
+
+.mod-game .mod-content .overview .results {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: helvetica, arial, sans-serif;
+    padding: 8px 0 0 6px
+}
+
+.mod-game .mod-content .overview .results .win {
+    color: #063;
+    display: block
+}
+
+.mod-game .mod-content .overview .results .loss {
+    color: red;
+    display: block
+}
+
+.mod-game .mod-content .overview .results .none {
+    color: #000;
+    display: block
+}
+
+.mod-game .mod-content .overview .venue {
+    color: #666;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: right;
+    float: none
+}
+
+.mod-game .mod-content .overview .venue span {
+    display: block;
+    font-size: 10px;
+    font-weight: 700
+}
+
+.mod-game .mod-content .overview .city {
+    clear: left;
+    color: #999;
+    font-size: 9px;
+    font-weight: 700;
+    width: 120px;
+    text-align: left
+}
+
+.mod-game .mod-content .stats {
+    float: left;
+    margin: 0 5px 0 0;
+    width: auto
+}
+
+.mod-game .mod-content .stats span {
+    display: block
+}
+
+.mod-game .mod-content ul.links {
+    overflow: hidden
+}
+
+body.clubhouse .mod-game.current h4 {
+    background: #ddd;
+    border-width: 1px 1px 0;
+    border-color: #bbb;
+    color: #333;
+    padding: 0 10px;
+    font-size: 12px
+}
+
+.mod-game.current .mod-content {
+    border-width: 0 1px 1px;
+    border-color: #ccc;
+    padding: 2px
+}
+
+.mod-game.current .gradient-container {
+    padding: 6px
+}
+
+.mod-game.current .mod-content .game-details {
+    margin: 0 0 10px;
+    overflow: hidden
+}
+
+.mod-game.current .mod-content .game-details .time {
+    font-weight: 700;
+    float: left
+}
+
+.mod-game.current .mod-content .game-details .venue {
+    text-align: right;
+    float: right
+}
+
+.mod-game.current .mod-content .game-details .venue span {
+    display: block;
+    font-weight: 700
+}
+
+.mod-game.current .mod-content .overview {
+    text-align: center;
+    border-bottom: 0;
+    margin: 0;
+    padding: 0
+}
+
+.mod-game.current .mod-content .overview .symbol {
+    font-size: 16px;
+    padding: 30px 0 0;
+    color: #111;
+    line-height: 20px;
+    font-family: helvetica, arial, sans-serif
+}
+
+.mod-game.current .mod-content .overview .team {
+    width: 134px;
+    color: #333;
+    text-align: center
+}
+
+.mod-game.current .mod-content .overview .team-home {
+    float: right
+}
+
+.mod-game.current .mod-content .overview .team .logo {
+    float: none;
+    margin: 0 auto
+}
+
+.mod-game.current .mod-content .overview .team .record {
+    color: #333;
+    text-align: center;
+    float: none;
+    line-height: 12px;
+    padding: 4px 0
+}
+
+.mod-game.current .mod-content .overview .team .record h6 {
+    font-size: 12px;
+    display: inline
+}
+
+.mod-game.current .mod-content .overview .team .player-highlight {
+    float: none;
+    text-align: center
+}
+
+.mod-game.current .mod-content .overview .team .player-highlight a {
+    display: block
+}
+
+.mod-game.current .mod-content .overview .team .player-highlight img {
+    margin: 4px 0
+}
+
+.mod-game.current .mod-content .scoring {
+    clear: both;
+    padding: 10px 0 5px;
+    width: 100%
+}
+
+.mod-game.current .mod-content .scoring table {
+    margin: 0 auto;
+    color: #666;
+    font-size: 10px
+}
+
+.mod-game.current .mod-content .scoring table th, .mod-game.current .mod-content .scoring table td {
+    padding: 2px 4px;
+    font-weight: 400
+}
+
+.mod-game.current .mod-content .scoring table th.total {
+    font-weight: 700
+}
+
+.mod-game.current .mod-content .scoring table tbody {
+    color: #333
+}
+
+.mod-game.current .mod-content .scoring table tbody th, .mod-game.current .mod-content .scoring table tbody td {
+    border: 0
+}
+
+.mod-game.current .mod-content .scoring table tbody th {
+    color: #555;
+    font-weight: normal
+}
+
+.mod-game.current .mod-content .scoring table td.total {
+    font-weight: 700;
+    background: #ddd
+}
+
+.mod-game.current .mod-content .scoring table td.overall {
+    color: #000
+}
+
+.mod-game.current.pre .mod-content .overview .team .player-highlight a {
+    display: inline
+}
+
+.mod-stat .mod-content {
+    border: 0;
+    margin: 0 0 6px;
+    font-size: 10px;
+    color: #666;
+    padding: 6px 10px
+}
+
+.mod-stat .mod-content .stat {
+    float: right;
+    color: #333;
+    font-size: 14px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 700
+}
+
+.mod-stat .mod-content strong {
+    color: #000;
+    display: block;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px
+}
+
+.mod-stat-leaders {
+    margin: 0 0 6px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd
+}
+
+.mod-stat-leaders .mod-stat .mod-content {
+    padding: 6px 10px 6px 0;
+    font-size: 11px
+}
+
+.mod-stat-leaders .mod-stat .mod-content ul.player-info li {
+    line-height: 12px;
+    overflow: hidden;
+    padding: 0 0 2px;
+    color: #444
+}
+
+.mod-stat-leaders .mod-stat .mod-content ul.player-info li.position {
+    font-weight: 400
+}
+
+.mod-stat-leaders .mod-stat .mod-content ul.player-info li.stat {
+    font-size: 24px;
+    float: none;
+    color: #000;
+    padding: 12px 0 2px;
+    line-height: 24px
+}
+
+.mod-content-feed .mod-content {
+    padding: 10px 16px;
+    color: #333
+}
+
+.mod-content-feed .mod-paginator {
+    padding: 8px 0;
+    overflow: hidden;
+    position: relative
+}
+
+.mod-content-feed .mod-results-header {
+    margin: 0;
+    border-bottom: 1px #ddd solid
+}
+
+.mod-content-feed .mod-results-header h2 {
+    font-size: 11px;
+    color: #000;
+    float: left;
+    width: 400px;
+    padding: 0 10px 0 0
+}
+
+.mod-content-feed .mod-results-footer {
+    margin: 20px 0;
+    border-top: 1px solid #ccc;
+    height: 25px !important
+}
+
+.mod-content-feed .mod-paginator .controls {
+    font-size: 10px;
+    color: #444;
+    position: absolute;
+    right: 10px;
+    top: 6px
+}
+
+.mod-content-feed .mod-paginator .controls .page-txt {
+    width: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #444;
+    font-size: 10px;
+    padding: 2px
+}
+
+.mod-content-feed .mod-paginator .controls .page-numbers {
+    float: left;
+    padding: 0 6px
+}
+
+.mod-content-feed .mod-paginator .controls a.page-btn {
+    background: transparent url(/prod/assets/master_search.png) 0 0 no-repeat;
+    float: left;
+    height: 18px;
+    width: 18px
+}
+
+.mod-content-feed .mod-paginator .controls a.page-prev {
+    background-position: 0 -33px
+}
+
+.mod-content-feed .mod-paginator .controls a.page-prev:hover {
+    background-position: -19px -33px
+}
+
+.mod-content-feed .mod-paginator .controls a.page-prev-disabled {
+    background-position: -38px -33px
+}
+
+.mod-content-feed .mod-paginator .controls a.page-prev-disabled:hover {
+    background-position: -38px -33px
+}
+
+.mod-content-feed .mod-paginator .controls a.page-next {
+    background-position: -95px -33px
+}
+
+.mod-content-feed .mod-paginator .controls a.page-next:hover {
+    background-position: -76px -33px
+}
+
+.mod-content-feed .mod-paginator .controls a.page-next-disabled {
+    background-position: -57px -33px
+}
+
+.mod-content-feed .mod-paginator .controls a.page-next-disabled:hover {
+    background-position: -57px -33px
+}
+
+.mod-content-feed .result {
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px #ddd solid;
+    overflow: hidden
+}
+
+.mod-content-feed .result.last {
+    border: 0
+}
+
+body.clubhouse .mod-content-feed .result h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 5px
+}
+
+body.clubhouse .mod-content-feed .result h4 {
+    color: #666;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 5px;
+    padding: 0;
+    letter-spacing: normal;
+    text-transform: none;
+    height: auto
+}
+
+.mod-content-feed .result .floatleft {
+    margin: 0 8px 4px 0
+}
+
+.mod-content-feed .result cite {
+    color: #999;
+    padding: 0;
+    float: left;
+    font-style: normal;
+    font-size: 10px
+}
+
+.mod-content-feed .result p {
+    margin: 0 0 5px;
+    overflow: hidden
+}
+
+.mod-content-feed .result .mod-video-rating {
+    float: none;
+    display: block;
+    overflow: hidden
+}
+
+.mod-content-feed .result .mod-video-rating strong {
+    float: left;
+    margin-right: 6px
+}
+
+.mod-content-feed .result .mod-video-tags {
+    float: none;
+    display: block;
+    margin-top: 6px
+}
+
+.mod-content-feed .result .local {
+    margin: 0 0 0 4px
+}
+
+.mod-content-feed .result .local.new-york {
+    text-indent: -1000px;
+    background: url(/prod/assets/clubhouses/2010/logo_espn_newyork_small.png) no-repeat;
+    display: block;
+    width: 107px;
+    height: 15px;
+    float: right
+}
+
+.mod-content-feed .result.local-callout .logo {
+    float: left;
+    padding: 5px 0 0;
+    margin: 0 10px 0 0
+}
+
+.view-more-posts, a.view-more-posts:visited {
+    background: url(/prod/assets/clubhouses/2010/bg_more_posts_sprite.png) repeat-x 0 0;
+    width: 580px;
+    height: 30px;
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    color: white !important;
+    display: block;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+}
+
+.view-more-posts:hover {
+    background: url(/prod/assets/clubhouses/2010/bg_more_posts_sprite.png) repeat-x 0 -30px;
+    text-decoration: none
+}
+
+.view-more-posts img {
+    padding: 6px 0
+}
+
+#clubhouse-video-player, #clubhouse-video-player-container {
+    position: absolute
+}
+
+.vid-icon {
+    background: transparent url(/prod/assets/icon_video.png) no-repeat scroll 0 0;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    opacity: .75;
+    top: 6px;
+    left: 6px;
+    filter: alpha(opacity=75)
+}
+
+.mod-features h3 {
+    border-bottom: 1px #ddd solid
+}
+
+.mod-features .mod-article-capsule .mod-content {
+    padding: 10px;
+    border: 0
+}
+
+.mod-features .span-2 .mod-article-capsule h6 {
+    font-size: 22px;
+    line-height: 26px
+}
+
+.mod-features .span-1 .mod-article-capsule h6 {
+    line-height: 20px
+}
+
+.mod-features .mod-article-capsule p {
+    margin: 10px 0;
+    color: #333;
+    line-height: 14px
+}
+
+body.clubhouse ul.links-row {
+    float: right;
+    overflow: hidden;
+    margin: 0 0 6px
+}
+
+body.clubhouse ul.links-row li {
+    float: left;
+    margin: 0 0 0 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px
+}
+
+body.clubhouse .links-row li a {
+    color: #225db7
+}
+
+.mod-myespn .mod-content .inline-header h4 {
+    height: auto;
+    padding: 0;
+    color: #444;
+    line-height: 18px
+}
+
+.mod-myespn .mod-content .inline-header ul.links {
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    text-align: right;
+    line-height: 10px;
+    font-size: 10px
+}
+
+.mod-myespn .mod-content .inline-header ul.links li {
+    float: left;
+    margin: 0 0 0 10px
+}
+
+body.clubhouse .mod-myespn .mod-content .inline-header h4 {
+    width: 100px;
+    background: url(/prod/assets/clubhouses/2010/logo_myespn_60x10.png) no-repeat;
+    text-indent: -1000px
+}
+
+body.clubhouse .mod-myespn .gradient-container {
+    padding: 6px
+}
+
+body.clubhouse .mod-myespn .mod-content .logo-small {
+    float: left;
+    margin: 0 6px 0 0
+}
+
+body.clubhouse .mod-myespn .mod-content a img {
+    float: left;
+    margin: 0 6px 6px 0
+}
+
+body.clubhouse .mod-myespn .mod-content .logo-small {
+    margin: 0 6px 6px 0
+}
+
+body.clubhouse .mod-myespn .mod-content .logo-medium {
+    margin: 0 6px 6px 0;
+    float: left
+}
+
+.mod-data-table .mod-content {
+    padding: 8px 8px 0
+}
+
+.mod-data-table h5 {
+    margin: 0 0 6px
+}
+
+.mod-data-table .featured-stat {
+    margin: 0 0 10px;
+    overflow: hidden;
+    line-height: 13px;
+    color: #666;
+    font-size: 11px
+}
+
+.mod-data-table .featured-stat img {
+    float: left;
+    margin: 0 10px 0 0
+}
+
+.mod-data-table .featured-stat .stat {
+    float: right;
+    font-size: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #000;
+    line-height: 30px
+}
+
+.mod-data-table .featured-stat ul.player-info {
+    float: left
+}
+
+.mod-data-table .featured-stat ul li a {
+    font-weight: 700
+}
+
+.mod-data-table .featured-stat ul li strong {
+    color: #000
+}
+
+.mod-data thead tr th {
+    background: 0
+}
+
+.mod-data tbody {
+    border-width: 1px 0;
+    border-color: #ddd;
+    border-style: solid
+}
+
+.mod-data tbody tr.highlight td, .mod-data tbody tr.highlight th {
+    font-weight: 700
+}
+
+.mod-data-table .footer {
+    padding: 6px 0
+}
+
+.mod-featured .mod-data {
+    width: 212px;
+    clear: none
+}
+
+.mod-featured .footer {
+    clear: none
+}
+
+.mod-featured th {
+    color: #666
+}
+
+body.clubhouse .mod-table .mod-header.group select {
+    float: right;
+    margin: 2px 25% 0 0
+}
+
+body.clubhouse .mod-table .mod-header.group .data-view {
+    float: right;
+    color: #666;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 0 0
+}
+
+body.clubhouse .mod-table .mod-header.group .data-view input {
+    margin: 0 0 0 12px;
+    vertical-align: top
+}
+
+body.clubhouse .ie7 .mod-table .mod-header.group .data-view input {
+    position: relative;
+    top: -4px;
+    margin: 0
+}
+
+body.clubhouse .mod-info-vis h4 {
+    color: #666;
+    padding: 0 2px;
+    margin: 0 14px 0 0;
+    border-bottom: 1px solid #ccc
+}
+
+.mod-team-footer {
+    overflow: hidden;
+    margin: 20px 0
+}
+
+.mod-team-footer .logo-medium {
+    float: left;
+    margin: 0 10px 0 0
+}
+
+body.clubhouse .mod-team-footer h3 {
+    font-size: 18px
+}
+
+.mod-team-footer li {
+    float: left;
+    font-size: 10px;
+    margin: 0 0 10px;
+    font-weight: 700;
+    line-height: 11px
+}
+
+.mod-team-footer li a {
+    color: #666;
+    display: block;
+    padding: 0 6px;
+    line-height: 20px
+}
+
+.mod-team-footer li.active a {
+    background: #666;
+    color: #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px
+}
+
+.clubhouse .subhead {
+    float: left;
+    padding: 10px 0;
+    width: 100%
+}
+
+.clubhouse .mod-content .subhead h3 {
+    float: left;
+    color: #333;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 0 12px
+}
+
+.clubhouse .subhead .page-actions {
+    float: right
+}
+
+.mod-weather.mod-open-list .mod-content ul li ul li {
+    background: transparent none !important
+}
+
+.mod-weather ul.forecast li ul {
+    float: left;
+    width: 100%
+}
+
+.mod-weather ul.forecast li ul li {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    clear: none;
+    border: 0
+}
+
+.mod-weather ul.forecast li ul li img {
+    width: 30px;
+    height: 30px;
+    padding: 6px
+}
+
+.mod-weather ul.forecast li ul li span {
+    display: block;
+    color: #999;
+    font-size: 10px;
+    margin: 4px 0 0 0
+}
+
+.mod-weather ul.forecast li ul li.temp {
+    float: right;
+    margin: 18px 4px 0 0
+}
+
+.mod-passport-img ul, .mod-passport-img ul li, .mod-passport-img ul li ul li {
+    float: left
+}
+
+.mod-passport-img ul li ul li {
+    overflow: hidden
+}
+
+.mod-passport-img ul li ul li.img-left {
+    margin: 0 8px 0 0
+}
+
+.mod-passport-img ul li ul.top-border li img {
+    margin: 8px 0 0 0
+}
+
+.mod-passport-img ul li ul li.img-right {
+    border-left: #c2c2c2 1px solid;
+    padding: 0 0 0 8px
+}
+
+.mod-passport-img ul li ul.top-border {
+    border-top: #c2c2c2 1px solid
+}
+
+body.clubhouse .depth-chart-tail {
+    background: transparent url(/prod/assets/clubhouses/2010/depth-chart-tail.png) no-repeat;
+    height: 7px;
+    position: absolute;
+    width: 9px;
+    margin: -2px 0 0 0
+}
+
+body.clubhouse .depth-chart-tail.left {
+    margin-left: 14px
+}
+
+body.clubhouse .depth-chart-tail.center {
+    margin-left: 40px
+}
+
+body.clubhouse .depth-chart-tail.right {
+    margin-left: 68px
+}
+
+.mod-open-list .mod-content.mod-manager ul li {
+    background: 0;
+    font-weight: 700
+}
+
+.mod-open-list .mod-content.mod-manager ul li dl {
+    margin: 0
+}
+
+.mod-manager ul.player-info {
+    float: left
+}
+
+.mod-manager ul.player-stat {
+    float: right
+}
+
+.mod-manager .mod-content {
+    color: #444;
+    font-size: 11px
+}
+
+.mod-manager .mod-content ul {
+    font-weight: 700;
+    padding: 6px 8px
+}
+
+.mod-manager .mod-content ul.player-stat li.record {
+    font-weight: normal
+}
+
+.mod-section-header.stadium {
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 8px;
+    padding: 10px 0 0
+}
+
+.clubhouse .mod-stadium .mod-content {
+    background: 0;
+    border-width: 0 1px 0 0
+}
+
+.clubhouse .mod-stadium img {
+    float: left
+}
+
+.clubhouse .mod-stadium ul.stadium-info {
+    margin: 0 0 0 294px
+}
+
+.clubhouse .mod-stadium ul.stadium-info li {
+    color: #666;
+    font-weight: 700;
+    padding: 0 0 2px 0
+}
+
+.clubhouse .mod-stadium ul.stadium-info li.name {
+    min-height: 72px
+}
+
+.clubhouse .mod-stadium ul.stadium-info li.name span {
+    line-height: 14px
+}
+
+.clubhouse .mod-stadium ul.stadium-info li.capacity span {
+    color: #666;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.clubhouse .mod-stadium ul.stadium-info li h3 {
+    font-size: 18px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    line-height: 20px
+}
+
+.clubhouse .mod-stadium ul.stadium-links li {
+    padding: 0 0 2px 0;
+    color: #666
+}
+
+.clubhouse .mod-stadium ul.stadium-links li h6, .clubhouse .mod-stadium ul.stadium-info li h6 {
+    color: #000
+}
+
+.clubhouse .mod-stadium ul.stadium-links span, .clubhouse .mod-stadium ul.stadium-info li span {
+    display: block
+}
+
+.mod-content ul.rated-list li {
+    border: 0
+}
+
+.mod-content ul.rated-list li dl {
+    margin: 0 0 0 10px;
+    padding: 8px 6px 8px 0
+}
+
+.mod-content ul.rated-list li dl span {
+    font-weight: 700;
+    font-size: 100%
+}
+
+.mod-stadium-detail .mod-content p span {
+    display: block;
+    font-weight: bold
+}
+
+.mod-stadium-detail p.footer, .mod-city-guide p.footer {
+    height: auto;
+    font-style: italic
+}
+
+.mod-city-guide .subhead h3 {
+    color: #333;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left
+}
+
+.mod-stadium-detail .mod-content h4, .mod-city-guide .mod-content h4 {
+    border-bottom: 1px solid #c2c2c2;
+    color: #333 !important;
+    margin: 0 0 0 10px !important;
+    padding: 8px 0 4px !important;
+    clear: none !important
+}
+
+.field-surface {
+    background: url(/prod/assets/clubhouses/2010/field_surface_sprite.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px
+}
+
+.field-surface.grass, .field-surface.turf {
+    background-position: 0 0
+}
+
+.mod-calendar-month table {
+    width: 100%
+}
+
+.mod-calendar-month .mod-header h4 {
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: normal
+}
+
+.mod-calendar-month .mod-header span {
+    position: absolute;
+    left: 2px;
+    width: 100%;
+    top: 4px
+}
+
+.mod-calendar-month .mod-header a.next, .mod-calendar-month .mod-header a.prev {
+    text-decoration: none;
+    width: 20px;
+    margin: 0 5px;
+    float: left;
+    line-height: 20px;
+    background: transparent url(../../assets/scrollers-sprite.png) 0 50% no-repeat
+}
+
+.mod-calendar-month .mod-header a.next {
+    background-position: -126px 50%;
+    margin: -1px 6px 0 0;
+    float: right
+}
+
+.mod-calendar-month .mod-header a.next:hover {
+    text-decoration: none;
+    background-position: -101px 50%
+}
+
+.mod-calendar-month .mod-header a.prev {
+    background-position: 0 0 50%;
+    margin: -1px 0 0 0;
+    float: left
+}
+
+.mod-calendar-month .mod-header a.prev:hover {
+    text-decoration: none;
+    background-position: -25px 50%
+}
+
+.mod-calendar-month table th, .mod-calendar-month table td {
+    padding: 1px;
+    border-top: #999 1px solid
+}
+
+.mod-calendar-month table tr.util td {
+    border-top: 0
+}
+
+.mod-calendar-month tr.util {
+    line-height: 20px;
+    font-size: 10px;
+    border-width: 0 0 1px 0 !important;
+    border-color: #ccc;
+    border-style: solid
+}
+
+.mod-calendar-month tr.util td ul.key li {
+    float: left;
+    color: #666;
+    padding: 0 20px 0 0
+}
+
+.mod-calendar-month tr.util td ul.key li span {
+    width: 10px;
+    height: 10px;
+    display: block;
+    float: left;
+    margin: 4px;
+    border: #ccc 1px solid
+}
+
+.mod-calendar-month tr.util td ul.key li span.today {
+    background: #ffc
+}
+
+.mod-calendar-month tr.util td.print-action {
+    text-align: right
+}
+
+.mod-calendar-month tr.util td.print-action a {
+    background: transparent url(/prod/assets/pt_print.gif) no-repeat;
+    padding: 0 4px 4px 18px;
+    color: #666
+}
+
+.mod-calendar-month tr.cal-day-names {
+    line-height: 20px
+}
+
+.mod-calendar-month tr.cal-day-names th {
+    font-weight: normal;
+    color: #999 !important
+}
+
+.mod-calendar-month table td {
+    border-right: #ccc 1px solid;
+    overflow: hidden;
+    vertical-align: top
+}
+
+.mod-calendar-month table td.day {
+    width: 10%;
+    height: 106px
+}
+
+.mod-calendar-month table td.day.away, .mod-calendar-month td.day.away .day-top, ul.key li span.away {
+    background: #e5e5e5
+}
+
+.mod-calendar-month table td.day.today {
+    background: #ffc
+}
+
+.mod-calendar-month tabletd.day a:hover {
+    text-decoration: none
+}
+
+.mod-calendar-month table td.last {
+    border-right: 0
+}
+
+.mod-calendar-month table th {
+    text-align: center
+}
+
+.mod-calendar-month div.day {
+    background: #f6f6f6 url(../../assets/calendar/calendar_carousel_day_bg.jpg) repeat-x center;
+    line-height: 20px;
+    padding: 0 0 0 4px;
+    text-align: left;
+    border-bottom: #e0e0e0 1px solid;
+    margin: 0 0 4px 0;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: helvetica, arial, sans-serif
+}
+
+.mod-calendar-month div.day-top {
+    height: 6px;
+    background: #eee;
+    top: 0
+}
+
+.mod-calendar-month div.day a.show-info, ul.game-schedule li a.show-info {
+    float: right;
+    background: url(../../assets/icons/calendar_info.png) no-repeat;
+    height: 12px;
+    width: 12px;
+    margin: 4px 4px 0 0;
+    padding: 0 4px 0 0
+}
+
+.mod-calendar-month ul.cal-day {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0
+}
+
+.mod-calendar-month ul.cal-day li {
+    display: block
+}
+
+.mod-calendar-month ul.cal-day li.game-info {
+    clear: both
+}
+
+.mod-calendar-month ul.cal-day li.game-info ul li, ul.game-schedule li {
+    float: left;
+    display: inline;
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: helvetica, arial, sans-serif;
+    padding: 4px
+}
+
+.mod-calendar-month ul.cal-day li.game-info ul li a, ul.game-schedule li a, .mod-table .mod-content ul.game-schedule li a:visited {
+    color: #666 !important
+}
+
+.mod-calendar-month ul.cal-day li.game-info ul li.game-time {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-right: 0
+}
+
+.mod-calendar-month ul.cal-day li.game-info ul li.game-time span {
+    display: block;
+    font-weight: normal
+}
+
+.mod-calendar-month ul.cal-day li.game-info ul li.game-status, ul.game-schedule li.game-status {
+    line-height: 20px;
+    font-weight: normal
+}
+
+.mod-calendar-month ul.cal-day li.game-info ul li.game-status.win, .mod-calendar-month ul.cal-day li.game-info ul li.game-status.win a, .mod-table .mod-content ul.game-schedule li.game-status.win, .mod-table .mod-content li.game-status.win a:visited {
+    color: #063 !important;
+    font-weight: 700
+}
+
+.mod-calendar-month ul.cal-day li.game-info ul li.game-status.loss, .mod-calendar-month ul.cal-day li.game-info ul li.game-status.loss a, .mod-table .mod-content ul.game-schedule li.game-status.loss a, .mod-table .mod-content ul.game-schedule li.game-status.loss, .mod-table .mod-content ul.game-schedule li.game-status.loss a {
+    color: #f00 !important;
+    font-weight: 700
+}
+
+li.game-info ul li.team-logo-small a, ul.game-schedule li.team-logo-small a {
+    display: block;
+    width: 18px;
+    height: 20px;
+    padding: 0
+}
+
+.mod-calendar-month ul.cal-day li.game-info ul li.team-logo-small, ul.game-schedule li.team-logo-small {
+    min-height: 20px;
+    width: 18px
+}
+
+.mod-calendar-month ul.cal-day ul li.day span {
+    float: right
+}
+
+.ie7 .mod-calendar-month div.day a.show-info {
+    margin: -16px 6px 0 0
+}
+
+.ie7 .mod-calendar-month li.game-info {
+    padding: 2px 0 0 0;
+    margin: 0
+}
+
+.ie7 .mod-calendar-month li.game-info ul {
+    float: left
+}
+
+div.game-info-overlay {
+    display: none
+}
+
+div.game-info-overlay {
+    position: absolute;
+    background: #666;
+    width: 104px;
+    margin: -28px 0 0 2px;
+    padding: 6px 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-size: 10px;
+    height: 86px;
+    overflow: hidden
+}
+
+div.game-info-overlay ul, div.game-info-overlay ul li {
+    clear: both;
+    font-size: 10px;
+    padding: 0 !important
+}
+
+div.game-info-overlay li a, div.game-info-overlay ul li a:visited, .mod-table .mod-content div.game-info-overlay ul li a:visited {
+    color: #fff !important;
+    font-weight: normal
+}
+
+div.game-info-overlay a.close {
+    float: right;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: #fff;
+    padding: 0 2px;
+    color: #666 !important;
+    cursor: pointer
+}
+
+ul.game-schedule li.team-name {
+    font-weight: normal;
+    font-size: 100%;
+    line-height: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif
+}
+
+ul.game-schedule li.score {
+    margin-right: 20px
+}
+
+.mod-split-menu {
+    position: absolute;
+    left: 400px;
+    font-size: 11px;
+    margin-top: 4px;
+    z-index: 100
+}
+
+.mod-split-menu .split-select {
+    width: 130px
+}
+
+.mod-split-menu .split-select a.btn-split-btn {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    color: #333;
+    border: #999 1px solid;
+    cursor: pointer;
+    padding: 2px 10px 4px;
+    clear: both;
+    display: block;
+    text-decoration: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #ddd;
+    background: -moz-linear-gradient(15% 85% 90deg, #ddd, #fff);
+    background: -webkit-gradient(linear, 0 20%, 0 100%, from(#fff), to(#ddd));
+    background-image: url('/prod/assets/clubhouses/2010/split_arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: 110px 3px
+}
+
+.mod-split-menu .split-select a.btn-split-btn span {
+    font-size: 10px;
+    color: #333;
+    float: right
+}
+
+.mod-split-menu .split-select a.btn-split-btn:hover, .mod-split-menu .split-select a.btn-split-btn:hover span {
+    color: #225db7
+}
+
+.mod-split-menu .split-level-items {
+    display: none;
+    padding: 0;
+    background: transparent url(/prod/assets/clubhouses/2010/bg_clubhouse_split.png) repeat-y left top;
+    float: left;
+    width: 130px;
+    z-index: 20;
+    border-bottom: #cfcfcf 1px solid;
+    border-top: #cfcfcf 1px solid
+}
+
+.mod-split-menu .split-level-items ul {
+    width: 130px
+}
+
+.mod-split-menu .split-level-items, .mod-split-menu .split-level-content {
+    height: 380px;
+    position: absolute
+}
+
+.mod-split-menu .split-level-items, .mod-split-menu .split-level-content ul {
+    height: 380px
+}
+
+.mod-split-menu .split-level-items li {
+    position: relative;
+    padding: 4px 6px;
+    width: 140px
+}
+
+.mod-split-menu .split-level-items a, .split-level-content a {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    color: #666
+}
+
+.mod-split-menu .split-level-items .split-hover-bg {
+    background: url(/prod/assets/clubhouses/2010/bg_clubhouse_split_arrow.png) no-repeat -4px 1px
+}
+
+.mod-split-menu .split-level-items .split-hover-bg a {
+    color: #fff;
+    text-decoration: none
+}
+
+.mod-split-menu .split-level-content {
+    width: 281px;
+    margin-left: 130px;
+    display: none;
+    z-index: 10;
+    background: transparent url(/prod/assets/clubhouses/2010/bg_clubhouse_split_gray.png) repeat-y 0 0;
+    height: 382px
+}
+
+.mod-split-menu .split-level-content ul {
+    display: none;
+    border-top: #cfcfcf 1px solid;
+    border-bottom: #cfcfcf 1px solid;
+    width: 140px
+}
+
+.mod-split-menu .split-level-content ul li {
+    padding: 4px 6px 4px 14px
+}
+
+.mod-split-menu .split-level-content ul.two-col {
+    background: #ddd url(/prod/assets/clubhouses/2010/bg_clubhouse_split_gray_right.png) top right repeat-y;
+    width: 360px
+}
+
+.mod-split-menu .split-level-content ul li dl {
+    float: left;
+    margin: 0;
+    padding: 0 26px 0 0;
+    width: auto !important
+}
+
+.mod-split-menu .split-level-content ul li dl.last {
+    padding: 0
+}
+
+.mod-split-menu .split-level-content ul li dl dt {
+    color: #555;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 0 0
+}
+
+.mod-split-menu .split-level-content ul li dl dt.first {
+    padding-top: 10px
+}
+
+.mod-split-menu .split-level-content ul li ul li, li dl dd {
+    background-image: none;
+    display: block;
+    float: none;
+    height: auto;
+    padding: 3px 6px 0 0;
+    white-space: nowrap;
+    width: auto
+}
+
+.mod-split-menu .split-level-content ul li a:hover {
+    color: #225db7 !important;
+    text-decoration: underline
+}
+
+.clubhouse .mod-table.mod-salaries .mod-content table {
+    border: #c2c2c2 1px solid;
+    border-collapse: separate
+}
+
+.clubhouse .mod-table .mod-content th, .clubhouse .mod-table .mod-content .colhead a:visited, .colhead a:visited {
+    color: #666 !important;
+    text-decoration: none
+}
+
+th, .colhead td {
+    background: 0
+}
+
+body.clubhouse #myespn-personalization, body.clubhouse #clubhouse-city-teams {
+    display: none
+}
+
+body.clubhouse #sub-branding a.btn-add-fave-team.favorite, table.mod-data tbody tr.my-fave td, table.mod-data tbody tr.my-fave th {
+    background: url('/prod/assets/memberservices/ms-bg-fave.gif') top left repeat-x;
+    color: #000;
+    font-weight: 700
+}
+
+td.textright, th.textright {
+    text-align: right !important
+}
+
+table.mod-data thead tr th {
+    background: #e8e8e8 url(/prod/assets/module_subheader_gradient.gif) repeat-x scroll 0 0;
+    height: auto
+}
+
+.half {
+    width: 50%;
+    padding: 0
+}
+
+.leaguerank {
+    text-align: right;
+    line-height: 28px;
+    font-size: 11px
+}
+
+.leaguerank span.inactive {
+    color: #225db7;
+    cursor: pointer
+}
+
+.overview .scoring th.winner {
+    background: transparent url(/prod/assets/scoreboard_arrow.gif) no-repeat scroll 0 5px;
+    padding-left: 10px;
+    font-weight: bold
+}
+
+ul.calendar-game-stats {
+    font-size: 9px;
+    padding: 3px !important
+}
